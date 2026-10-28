@@ -3,8 +3,8 @@
 # Overview
 This project builds a simple data pipeline for Duka Connect, a Nairobi-based B2B distributor. It retrieves customer records from a REST API, processes nested JSON data, converts the records into a structured table, and saves the results as a CSV file for business analytics.
 
-[Clickable Text](API_URL = "https://jsonplaceholder.typicode.com/users"
-)
+[API_URLhttps://jsonplaceholder.typicode.com/users
+]
 
 
 
@@ -27,7 +27,7 @@ This project builds a simple data pipeline for Duka Connect, a Nairobi-based B2B
 ```
 api-extraction/
 |--- extract_customers.py
-|--- output/
+|---| output/
 |   |--- customers_clean.csv
 |--- requirements.txt
 |--- README.md
